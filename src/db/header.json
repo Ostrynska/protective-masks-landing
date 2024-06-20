@@ -1,0 +1,7 @@
+[
+  { "id": 1, "label": "Home", "href": "#home" },
+  { "id": 2, "label": "About", "href": "#about" },
+  { "id": 3, "label": "Product", "href": "#product" },
+  { "id": 4, "label": "Contact", "href": "#contact" },
+  { "id": 5, "label": "History", "href": "#history" }
+]

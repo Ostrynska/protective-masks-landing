@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+// Змінні
+$bg: #fff;
+$white: #fff;
+$title: #181833;
+$text: #2D2D2D;
+$green: #179D2E;
+$blue: #0177B8;
+$yellow: #F5AF23;
+$red: #F02E2C;
+
+$transition: all 0.2s ease;
+
+// Глобальні стилі
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+// Основний контент
+main {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 280px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media screen and (min-width: 360px) {
+    max-width: 340px;
+  }
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+
+  @media screen and (min-width: 1320px) {
+    max-width: 1320px;
+  }
+}
+
+// Секції
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 480px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, 
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+svg {
+  transform-origin: unset;
+  height: 80px;
+  width: 80px;
+  display: block;
+
+  @media screen and (min-width: 480px) {
+    height: 100px;
+    width: 100px;
+  }
+}

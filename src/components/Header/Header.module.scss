@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+//   margin: 0 auto;
+  height: 47px;
+}
+
+.logo {
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav {
+    display: flex;
+    gap: 45px;
+}
+
+.list {
+    padding: 5px;
+}
+
+.list li > a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.contactButton {
+  background-color: #1c6ef2;
+  width: 123px;
+  height: 47px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
